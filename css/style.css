@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.navbar .navbar-nav .nav-item .nav-link, .navbar .navbar-nav .nav-item .nav-link:hover, .banner-section .btn:hover, footer .form .btn:hover, .social ul li a:hover {
+  transition: all 0.3s cubic-bezier(0, 0, 1, 0.04);
+  -webkit-transition: all 0.3s cubic-bezier(0, 0, 1, 0.04);
+  -moz-transition: all 0.3s cubic-bezier(0, 0, 1, 0.04); }
+
+.feature .icon {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5fc3ff+50,48baff+50,48baff+50,48baff+50 */
+  background: #5fc3ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #5fc3ff 50%, #48baff 50%, #48baff 50%, #48baff 50%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #5fc3ff 50%, #48baff 50%, #48baff 50%, #48baff 50%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #5fc3ff 50%, #48baff 50%, #48baff 50%, #48baff 50%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fc3ff', endColorstr='#48baff',GradientType=1 );
+  /* IE6-9 */ }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6; }
+
+img {
+  max-width: 100%; }
+
+a:hover {
+  text-decoration: none; }
+
+.navbar {
+  background-color: #F6F9F9;
+  padding: 15px 0px; }
+  .navbar .navbar-brand {
+    max-width: 120px; }
+  .navbar .navbar-nav .nav-item {
+    padding: 0px 5px; }
+    .navbar .navbar-nav .nav-item .nav-link {
+      color: #2D3950;
+      font-size: 15px;
+      font-weight: 700; }
+      .navbar .navbar-nav .nav-item .nav-link:hover {
+        color: #15A4FA; }
+
+.banner-section {
+  background-image: url(../image/strict1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: fit-content;
+  background-attachment: fixed;
+  padding: 200px 0px;
+  position: relative; }
+  .banner-section .click {
+    position: absolute;
+    top: 400px;
+    font-size: 35px;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%); }
+  .banner-section h1 {
+    font-size: 100px;
+    font-weight: 600;
+    color: #fff; }
+  .banner-section P {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 25px; }
+  .banner-section span {
+    height: 2px;
+    display: block;
+    background-color: #15A4FA;
+    margin-bottom: 10px; }
+  .banner-section .btn {
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid #15A4FA;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1;
+    margin: 50px 0px; }
+    .banner-section .btn:hover {
+      background-color: #15A4FA; }
+
+.simple {
+  padding: 50px 0px;
+  color: #F6F9F9;
+  background-color: #F6F9F9;
+  text-align: center; }
+  .simple h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2D3950; }
+  .simple p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #2D3950;
+    align-content: center;
+    padding: 0px 68px; }
+
+.feature {
+  padding: 50px 0px;
+  text-align: center; }
+  .feature .icon {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px; }
+    .feature .icon i {
+      color: #fff;
+      font-size: 50px;
+      text-align: center;
+      line-height: 100px;
+      text-shadow: 1px 1px 2px #1b1818; }
+  .feature h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700; }
+  .feature p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500; }
+
+.gallery {
+  background-color: #F6F9F9;
+  padding: 50px 0px; }
+  .gallery h1 {
+    font-size: 30px;
+    font-weight: 700; }
+  .gallery p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 70px; }
+  .gallery img {
+    box-shadow: 2px 2px 5px #808080a8; }
+
+footer {
+  background-image: url(../image/contact2.png);
+  background-color: #2D384B;
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: fit-content;
+  padding: 50px 0px;
+  color: #fff; }
+  footer h1 {
+    font-size: 35px;
+    font-weight: 600; }
+  footer p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 50px; }
+  footer .form input {
+    background: transparent !important; }
+  footer .form textarea {
+    background: transparent !important; }
+  footer .form .btn {
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid #15A4FA;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1; }
+    footer .form .btn:hover {
+      background-color: #15A4FA; }
+
+.social {
+  padding: 20px 0px;
+  background-color: #F6F9F9; }
+  .social p {
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #B6B7B7; }
+  .social ul li a {
+    margin-left: 10px;
+    background-color: #15A4FA;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #15A4FA; }
+    .social ul li a:hover {
+      background-color: transparent;
+      color: #15A4FA; }
+
+/*media query start*/
+@media (max-width: 767px) {
+  .banner-section h1 {
+    font-size: 80px; }
+
+  .simple h1 {
+    font-size: 20px; }
+  .simple p {
+    padding: 0px;
+    font-size: 10px; } }
+@media (max-width: 575px) {
+  .navbar {
+    padding: 15px 10px; } }
+
+/*# sourceMappingURL=style.css.map */
